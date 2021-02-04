@@ -1,3 +1,4 @@
 # NLP-analysis-of-COVID-19-Tweets
-This project uses a bag-of-words approach to pre-process 1.2 million covid tweets, and then use K-means clustering to find clusters of similiar tweets. 
-This is project is done on Databricks
+This project implemented a pipeline to pre-process, cluster, and extract central rhetorics from  1.2 million tweets that mentioned COVID-19.
+This project is implemented using Databricks notebook and apache spark, and the main package I used is SparkNLP and Spark ML lib.
+This project is a work in progress. Future direction will focus on better pre-processing of the text(e.g. coding emojis to word instead of getting rid of them) as well as implementing a more sophisticated model (e.g. Word2Vec).
