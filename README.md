@@ -12,3 +12,4 @@
 -This project is a work in progress. Future direction will focus on better pre-processing of the text(e.g. coding emojis to word instead of getting rid of them) as well as implementing a more sophisticated model (e.g. Word2Vec).
 
 For more details please check out the main notebook
+[main notebook](Notebooks/covidTweetsCluster.py)
